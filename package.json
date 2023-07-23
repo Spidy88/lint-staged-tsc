@@ -1,0 +1,26 @@
+{
+  "name": "@spidy88/lint-staged-tsc",
+  "version": "1.0.0",
+  "description": "A tool that runs tsc-files on staged files but ignores errors in non-staged files",
+  "license": "MIT",
+  "author": "Nick Ferraro <https://github.com/Spidy88",
+  "repository": "github:Spidy88/lint-staged-tsc",
+  "bin": {
+    "lint-staged-tsc": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "tsc-files": ">1",
+    "typescript": ">3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.39",
+    "tsc-files": "^1.1.4",
+    "typescript": "^5.1.6"
+  }
+}
